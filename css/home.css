@@ -1,4 +1,17 @@
 html{
-	color:blue;
 }
-
+.main{
+	text-align:center;
+}
+.sitetitle{
+	color:black;
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+	font-size:100px;
+	color:pink
+	;
+	
+}
+.titleloop{
+	width:50%;
+}
