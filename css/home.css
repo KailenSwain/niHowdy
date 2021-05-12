@@ -1,14 +1,40 @@
 html{
+	
 }
+body{
+	background-color: #E0AAFF;
+	margin:0px;
+	height:200vh;
+}
+nav{
+	height:auto;
+	background-color:#C77DFF;
+	width: 100%;
+	margin: 0,0,0,0;
+	/*background-image: linear-gradient(to top, rgba(157, 78, 221,0), rgba(157, 78, 221,1));*/
+	position: fixed;
+	top:0;
+}
+
+.howdy{
+	font-family: 'Rubik', sans-serif;
+font-weight: 500;
+	font-size:32px;
+	text-align: left;
+	color:white;
+	padding: 24px 0px 24px 24px;
+
+}
+
 .main{
 	text-align:center;
 }
 .sitetitle{
-	color:black;
+	
 font-family: 'Rubik', sans-serif;
 font-weight: 500;
 	font-size:100px;
-	color:pink
+	color: #9D4EDD
 	;
 	
 }
