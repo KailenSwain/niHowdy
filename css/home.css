@@ -17,6 +17,7 @@ nav{
 	/*background-image: linear-gradient(to top, rgba(157, 78, 221,0), rgba(157, 78, 221,1));*/
 	position: fixed;
 	top:0;
+	z-index: +1;
 }
 
 .howdy{
@@ -34,11 +35,18 @@ nav{
 	text-align: center;
 }
 
-.video{
+video{
 /*width: 100%    !important;
   height: auto   !important;*/
   display: block;
   margin: auto;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+ 
 }
 .content{
 	
@@ -48,7 +56,8 @@ nav{
 	margin-top: 150px;
 	/*margin-left:10%;
 	margin-right:10%;*/
-	margin:100 auto;
+	margin:0 auto;
+	padding-top: 250px;
 
 }
 
@@ -56,3 +65,23 @@ nav{
 .titleloop{
 	height:200px;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+.container{}
+
+
+video{
+	top:30%;
+	padding-top: 0px;
+}
+
+}
+
+
+
