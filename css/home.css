@@ -3,8 +3,11 @@ html{
 }
 body{
 	background-color: #E0AAFF;
-	margin:0px;
+	margin: 0 auto;
 	height:200vh;
+	
+
+
 }
 nav{
 	height:auto;
@@ -18,19 +21,38 @@ nav{
 
 .howdy{
 	font-family: 'Rubik', sans-serif;
-font-weight: 500;
+	font-weight: 500;
 	font-size:32px;
 	text-align: left;
 	color:white;
 	padding: 24px 0px 24px 24px;
 
 }
+.container{
+	margin:auto;
+	
+	text-align: center;
+}
 
-.main{
+.video{
+/*width: 100%    !important;
+  height: auto   !important;*/
+  display: block;
+  margin: auto;
+}
+.content{
+	
+	display: block;
 	text-align:center;
+	box-sizing: border-box;
+	margin-top: 150px;
+	/*margin-left:10%;
+	margin-right:10%;*/
+	margin:100 auto;
+
 }
 
 }
 .titleloop{
-	width:50%;
+	height:200px;
 }
